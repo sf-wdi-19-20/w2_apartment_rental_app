@@ -1,5 +1,8 @@
 ### NOTE TO TEAM:
+
 This is not a lab. I'm thinking the students can pair-program on this exercise for Wednesday afternoon's module to get practice on relationships in OOP.
+
+==========
 
 # Apartment Rental App
 
