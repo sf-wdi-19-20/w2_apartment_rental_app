@@ -1,7 +1,3 @@
-### NOTE TO TEACHING TEAM:
-
-This is not a lab. I'm thinking the students can pair-program on this exercise for Wednesday afternoon's module to get practice on relationships in OOP.
-
 # Apartment Rental App
 
 Your goal in this application is to use Object-Oriented Programming (OOP) to model relationships between people, properties, and units.
