@@ -55,3 +55,7 @@ john.contact
 ```
 
 You can do the same thing to test `Tenant`, `Reference`, `Property`, and `Unit`.
+
+## Extra Challenge
+
+When implementing relationships in this app (i.e. adding a `property` to a `manager`'s list of properties), think about how you could check to make sure the object you're adding is the type of object you're expecting. You wouldn't want to add an instance of `Tenant` to a manager's list of properties! Look at the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof" target="_blank">instanceof</a> operator, and use it to perform validations on objects before adding them to a collection.
