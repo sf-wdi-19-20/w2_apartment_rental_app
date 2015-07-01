@@ -15,5 +15,3 @@ Unit.prototype.available = function() {
     return false;
   }
 };
-
-module.exports = Unit;
