@@ -11,5 +11,3 @@ Manager.prototype.addProperty = function(property) {
 Manager.prototype.removeProperty = function(property) {
   // remove property
 };
-
-module.exports = Manager;

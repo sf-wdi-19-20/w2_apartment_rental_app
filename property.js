@@ -28,5 +28,3 @@ Property.prototype.availableUnits = function(){
 Property.prototype.rentedUnits = function(){
   // return num of rented units
 };
-
-module.exports = Property;

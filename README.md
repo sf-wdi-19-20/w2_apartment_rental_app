@@ -34,22 +34,24 @@ To get started on this app, break the problem into smaller pieces. We suggest ch
 
 ## Testing Your App
 
-You can use the node REPL (in your terminal) to test your app. If you don't have node installed yet, you can <a href="https://nodejs.org/download" target="_blank">download it here</a>.
+To test one of your constructors, paste it into a snippet in the Chrome Dev Tools. Also paste any prototype methods you set up for your constructor. **Note:** You may want to paste in constructor functions for multiple objects since your objects interact with each other (i.e. `Manager` and `Property`).
 
-* Open the node REPL and `require('./main.js')`
-
-```js
-$ node
-> var app = require('./main.js')
-```
-
-* Create a `Manager` object.
+* Paste your `Manager` constructor into a snippet.
 
 ```js
-> var Manager = app.Manager;
-> var john = new Manager("John Doe", "123-4567");
-> john.contact
-"123-4567"
+function Manager(name, contact) {
+  // set name and contact
+
+  this.properties = [];
+}
 ```
 
-You can do the same thing to test `app.Tenant`, `app.Reference`, `app.Property`, and `app.Unit`.
+* Create a new instance of `Manager`
+
+```js
+var john = new Manager("John Doe", "123-4567");
+john.contact
+123-4567
+```
+
+You can do the same thing to test `Tenant`, `Reference`, `Property`, and `Unit`.
