@@ -16,14 +16,14 @@ Property.prototype.getManager = function() {
 Property.prototype.addTenant = function(unit, tenant) {
   // add tenant to unit, but first check to make sure
   // property has a manager and tenant has 2 references
-  if (unit.available() && this.manager !== null && newTenant.references.length >= 2) {
-    unit.tenant = newTenant;
+  if (unit.available() && this.manager !== null && tenant.references.length >= 2) {
+    unit.tenant = tenant;
   }
 };
 
 Property.prototype.removeTenant = function(unit, tenant) {
   // remove tenant from unit
-  if (unit.tenant === tenantLeaving) {
+  if (unit.tenant === tenant) {
     unit.tenant = null;
   }
 };
